@@ -1,0 +1,33 @@
+# Define the chart with Dice Roll ranges and Creature Types
+chart <- data.frame(
+  DiceRoll = c("1-3", "4-10", "11-20", "21-30", "31-50", "51-75", "76-100"),
+  CreatureType = c("Goblin", "Orc", "Troll", "Elf", "Dragon", "Giant", "Phoenix"),
+  stringsAsFactors = FALSE
+)
+
+# Function to roll a number and match the result to a range
+roll_and_find <- function(chart) {
+  # Roll a number from 1 to 100
+  roll <- sample(1:100, 1)
+  
+  # Find the matching row based on the roll
+  matching_row <- chart[sapply(chart$DiceRoll, function(range) {
+    # Parse the range
+    bounds <- as.numeric(unlist(strsplit(range, "-")))
+    # Check if roll is within the range
+    roll >= bounds[1] && roll <= bounds[2]
+  }), ]
+  
+  # Output the result
+  if (nrow(matching_row) == 1) {
+    message <- paste("You rolled", roll, ", the result is", matching_row$CreatureType, "!")
+  } else {
+    message <- paste("No match found for roll", roll)
+  }
+  
+  return(message)
+}
+
+# Test the function
+result <- roll_and_find(chart)
+cat(result, "\n")

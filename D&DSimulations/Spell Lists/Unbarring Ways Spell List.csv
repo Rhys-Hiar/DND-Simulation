@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+I--LOCK,1 lock,-,100',1- LOCK (F) Caster can cause any lock he can see within 100' to be locked (the lock si just normally locked and can be unlocked normally).
+-2 -MAGIC LOCK,1 door,1 min/lvl,touch,"2- MAGIC LOCK (F) Adoor (or container) can be magically ""locked""; the door can be broken normally or the spell can be dispelled but otherwise the door cannot be opened."
+3-LOCKLORE,1 lock,-,touch,"-3 LOCKLORE (I) Gives the caster a +20 modification on picking the lock analyzed, and + 10 to anyone to whom he describes the lock. "
+4 - OPENING 1,1 lock,-,touch,"4-OPENINGI (F) When cast on alock there si a20%chance anormal lock will open, and a 45% chance that a 'Magic Lock' will open (failure means theresi a 10% chance of setting of attached traps). Rolls are open-ended, and the quality of the lock may modify the roll."
+5--TRAPLORE ,1 trap,-,touch,"-5 TRAPLORE (I) As Locklore, except that it applies to disarming traps."
+6 - DISARM 1,1 trap,-,touch,"-6 DISARM I (F) As Opening I, except its chances apply to disarming traps."
+7 - JAMMING,1 door,p,50',"7-JAMMING (F) Causes adoor to expand and jam into its frame (roll 1-100 for severity, ranging from slightly stuck to unopenable.)"
+8--WEAKENING,1 door,p,50',8- WEAKENING (F) Reduces the inherent strength of adoor by 50%.
+9 - Opening 2,1 lock,-,touch,"9- OPENING I (E) As Opening ,I except chances are 40% for normal locks and 90% for a ""Magic Lock""."
+10- UNDOOR,1 door,p,10',"10- UNDOOR (F) Wil vaporize a non-magic door up to 6"" thick, 10' high and 10' wide (if the door si thicker than 6"" it wil vaporize 6""). Doors made of special material wil get aRR."

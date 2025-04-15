@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1 - Calm I ,1 target,1 min/lvl,100',"1-CALM I (F) Target wil take no aggressive/offensive action, and wil fight only if attacked."
+2 - Calm II,2 targets,1 min/lvl,100',"2- CALM I (F) As Calm ,I except 2targets may be affected. Both must be ni the caster's field of vision when the spel si cast."
+3 - Hold Kind c,1 target,C,100',-3 HOLD KIND (F) Any 1being may be held to 25% of normal activity for as long as the caster concentrates.
+4 - Long Calm,1 target,1 min/lvl,300',"4 - LONG CALM (F) As Calm I, except that the range is 300'."
+5 - Stunning *,1 target,varies,50',5- STUNNING (F*) Caster points his arm (elbow locked and fist clenched) at the target and channels raw power from his deity: target si stunned for 1 rnd/10 pt failure of R.
+6 - Calm III,3 targets,1 min/lvl,100',"6-CALM III (E) As Calm Il, except 3targets may be affected."
+7 - Calm IV,4 targets,1 min/lvl,100',"7-CALM VI (F) As Calm Il, except 4targets may be affected. "
+8 - Golden Slumbers *,1 target,varies,50',"8-GOLDEN SLUMBERS (F*) As Stunning, except target falls into a deep sleep for 1rnd/10 pt failure of R."
+9 - Calm V,5 targets,1 min/lvl,100',"9 -  CALM V(F) As Calm I, except 5targets may be affected."
+10 - Blinding *,1 target,varies,50',"10 - BLINDING (F*) As Stunning, except target si blinded for 10 min/10 pt failure of R."

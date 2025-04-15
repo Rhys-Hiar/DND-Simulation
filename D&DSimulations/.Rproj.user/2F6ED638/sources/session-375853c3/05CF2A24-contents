@@ -1,0 +1,113 @@
+library(ggplot2)
+library(plotly)
+library(base64enc) # For encoding the image as Base64
+library(maps)
+library(magick)
+library(ggpubr)
+library(png)
+
+
+#img.file <- system.file(file.path("images", "Territorial_Control_Of_The_New_Continent_Test.png"),
+#                        package = "ggpubr")
+
+img <- png::readPNG("Territorial_Control_Of_The_New_Continent_Test.png")
+
+#dataURI(file=system.file("images", "Territorial_Control_Of_The_New_Continent_Test.png", package = "png", mime = "image/png"))
+
+# Plot with background image
+#ggplot(iris, aes(Species, Sepal.Length))+
+#  background_image(img)
+  #geom_boxplot(aes(fill = Species), color = "white")+
+  #fill_palette("jco")
+
+# Step 1: Encode the local image file as Base64
+#image_path <- "Territorial_Control_Of_The_New_Continent_Test.png"
+
+base64_image <- base64enc::dataURI(file = system.file("images", "Territorial_Control_Of_The_New_Continent_Test.png", package="png"), mime="images/png")
+
+#img <- readPNG(
+#  system.file("img", image_path, package = "png")
+#)
+  #system.file("img", "/Users/rhyshiar/Desktop/Personal/D&D/D&DSimulations/Territorial_Control_Of_The_New_Continent_Test.png", package ="png"))
+# Step 2: Create data for map elements
+towns <- data.frame(
+  name = c("Aurum's Cliff", "Wolfram", 
+           "Natrium", "Home Steader's Remorse", 
+           "Shimershine Isle", "Prince Williams",
+           "New Dawn (port)", "King Saffronsburg", 
+           "Crumbled Tomb (port)", "Broken Frontier",
+           "Elan D'uil", "Stomi (port)",
+           "Akumai"),
+  x = c(12, 2.1, 
+        2.7, 2.5, 
+        14.2, 11.8, 
+        14, 1, 
+        1, 1, 
+        1, 1, 
+        1),  # x-coordinates
+  y = c(79, 85, 
+        95.8, 75.2, 
+        66, 56.5, 
+        45.7, 1, 
+        1, 1, 
+        1, 1, 
+        1)   # y-coordinates
+)
+
+borders <- data.frame(
+  region = c("Region 1", "Region 1", "Region 1", "Region 2", "Region 2"),
+  x = c(10, 60, 65, 70, 30),  # x-coordinates for polygons/paths
+  y = c(80, 80, 85, 50, 50),  # y-coordinates
+  group = c(1, 1, 1, 2, 2)   # Group to differentiate regions
+)
+
+
+# Step 3: Build the ggplot without the background image
+map <- ggplot() +
+  geom_polygon(
+    data = borders,
+    aes(x = x, y = y, group = group, fill = region),
+    alpha = 0.4, color = "black"
+  ) +
+  geom_point(
+    data = towns,
+    aes(x = x, y = y, label = name), # Use label for interactivity
+    size = 3, color = "red"
+  ) +
+  scale_x_continuous(expand = c(0, 0), limits = c(0, 100)) +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, 100)) +
+  theme_minimal() +
+  background_image(img) +
+  theme(
+    axis.title = element_blank(),
+    axis.text = element_text(face="bold", color = "#993333", 
+                             size = 14, angle = 45),
+    axis.ticks = element_blank(), 
+    axis.line = element_line(),
+    panel.border = element_blank()
+  )
+
+# Step 4: Convert ggplot to interactive plotly plot
+interactive_map <- ggplotly(map, tooltip = "label", originalData=TRUE)
+
+# Step 5: Add the Base64-encoded background image to the layout
+interactive_map <- interactive_map %>%
+  layout(
+    images = list(
+      list(
+        source = img, # Use Base64-encoded image
+        xref = "x",
+        yref = "y",
+        x = 0,   # X-axis starts at 0
+        y = 100, # Y-axis starts at the max value (top of the plot)
+        sizex = 100, # Image width matches X-axis range
+        sizey = 100, # Image height matches Y-axis range
+        xanchor = "left",
+        yanchor = "top",
+        layer = "below"
+      )
+    )
+  )
+
+# Display the interactive map
+interactive_map

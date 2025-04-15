@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1 - Sustain Self,self,1 day,self,1- SUSTAIN SELF (U) Caster receives all necessary nutrition and water for 1 day.
+2 - Airwall c,10'x10'x3',C,50',"2 - AIRWALL (E) Creates a transparent 10'x10'x3' wall of dense churning air, cuts all movement and attacks through it by 50%."
+3 - Water Production,-,P,10',3 - WATER PRODUCTION (P) Caster can produce sufficient water in any available receptacle to supply any person for one day.
+4 - Food Production,-,P,10',"4-FOOD PRODUCTION (P) Caster can produce sufficient food from the surrounding area to feed 1hearty appetite for 1day. If the food si not con- sumed within 24 hours of when it is produced, it will go bad."
+5 - Waterwall c,10'x10'x1',C,50',"-5 WATERWALL (E) Creates 10'x'10'xl' wall of water, cuts all movement and attacks through ti by 80%."
+6 - Woodwall,10'x20'x20',1 min/lvl,50',"6-WOODWALL (E) Creates a wall of wood up to 10'x20'x2"", its weight must rest on a solid surface. It can be burned through (50 hits for a 2' Rhole) OR chopped through (20 man-rounds) OR ti may be toppled if one end is not against a wall (otner than tne s u p p o r g sutrace)."
+7 - Earthwall,10'x10'x2',1 min/lvl,50',"7-EARTHWALL (E) As Woodwall, except the wall is up to 10'x10'x(3' at base, 1'at top) of packed earth: and ti can only be dug through (10 man- rounds at ton)."
+8 - Icewall,10'x10'x1.5',P,50',"-8 ICEWALL (E) As Woodwall, except wal is up to 10x' 10'x(2' at base, l'at top): ti can be melted through (100 hits) OR chipped through (50 man- rounds) OR toppled fi not against awal."
+9 - Nutrient Conjures,-,P,10',9- NUTRIENT CONJURES (F) Caster can produce 1loaf of waybread that weighs 2oz. and will support 1being for 1day: the loaf will lose potency in 1 month
+10 - Barrier Pit,500-1000 cu',P,50',"10- BARRIER PIT (E) Opens a pit (500 cu' in stone: 1000 cu' in earth or ice), the entire pit must be within 50' of caster."

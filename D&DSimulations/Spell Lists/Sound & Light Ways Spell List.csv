@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1 - Prijected Light,50' beam,1o min/lvl,self,1-PROJECTED LIGHT (F) AS0' beam of light (like a flashlight) springs from the caster's palm. He can turn ti on or of by opening or closing his hand.
+2 - Speech I c,1 target,C,10',"2-SPEECH I (P) Target si able ot communicate basic ideas ni aspecific language of someone within 10' (hungry, thirsty, bathroom, peace, etc.)."
+3 - Light,10'R,10 min/lvl,touch,"3- LIGHT (F) Lights a 10R area about the point touched. The light pro- duced si equivalent to torchlight. If the point si on a moving being or object, the area wil move with it."
+4 - Quiet,1'R,1 min/lvl,100',"4 - QUIET (F) Creates a 1R' area around the target, into and out of which sound cannot travel. The area si centered on the target and wil move fi he does."
+5 - Sudden Light,10'R,-,100',"5- SUDDEN LIGHT (F) Causes a 10R' sphere of intense light, al within it must make a R or they are stunned for 1rnd/5 pt failure of RR."
+6 - Speech II c,1 target,C,10',"6 - SPEECH I (P) As Speech I, except caster can communicate in more com- plex concepts, although there si a good chance of misinterpretations."
+7 - Shock Bolt,1 target,-,100',"7 - SHOCK BOLT (E) A bolt of intense, charged light is shot from the palm of the caster: results are determined on the Bolt Attack Table."
+8 - Silence,10'R,1min/lvl,100',"-8 SILENCE (F) As Quiet, except radius si 10'."
+9 - Utterlight,10'R,1 min/lvl,touch,"9- UTTERLIGHT I(F) As Light, except it si the equivalent of ful daylight: it also cancels all magically created darkness."
+10 - Waiting Light,10'R,varies,touch,"10 - WAITING LIGHT (F) As Light, except it can delay the action of the spel until up ot 42 hour/Ivl pases OR abeing pases OR acertain word si said, etc."

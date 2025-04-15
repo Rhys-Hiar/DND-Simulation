@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1  - Animal Sleep,1 animal,1 min/lvl,100',"1 - Animal Sleep (F) Puts an animal to sleep: will not affect enchanted creatures or ""intelligent"" creatures. For these pruposes an animal is creature of limited intelligence, operating primarily through training or instinct"
+2 - Cloking,self,1 min/lvl,self,2 - Cloaking (E) Allows caster to bend into surrounding terrain and become undiscoverable by animals. Gives a +30 bonus to hiding from others
+3 - Summons I c,-,1 min/lvl,100',"3 - Summons I (F) Caster can summon a first level non-intelligent creature who will remain for one minute and then disappear. The caster can control the creature when he concentrates. The general type of creature can be speciied by the caster burt exactly what the creature is should be determined randmly (e.g., the caster could specify four legged and hooved, and could get a zebra, horse, camel, etc.)"
+4 - Animal Tongues,self,1 min/lvl,self,"4 - Animal Tongues (U) Caster gains knowledge of any one animal language (a member of the species must be within 100') for the duration of the spell. For this purpose, animal languages include any forms of communication. "
+5 - Animal Mastery c,1 animal,C,100',5 - Animal Mastery (F) Allows caster to control the actions of any 1 animal when he concentrates
+6 - Summons III c,-,varies,1--',"6 - Summons III (F) - As summons I, except the caster can summon a 3rd level creature for 1 minute, or a 1st level for 3 minutes or three 1st level's for 1 minute, or etc. The sum total of the (level) x (minutes) of all creatres cannot exceed 3"
+7 - Animal Location,1 mi R,-,1 mile,"7 - Animal Location (P) Caster can locate members of any 1 species of animal, or he can find out what species are in the area. "
+8 - Befriending c,50'R,C,self,"8 - Befriending (F) All animals within 50' will act friendly toward caster; however, the caster does not control them"
+9 - Animal Empathy c,1 animal,C,100',9 - Animal Empathy (P) Caster can understand and visualize the thoguhts and emotions of any 1 animal
+10 - Summons V c,-,C,100',"10 - Summons V (F) As summons III, except the sum total cannot exceed 5"

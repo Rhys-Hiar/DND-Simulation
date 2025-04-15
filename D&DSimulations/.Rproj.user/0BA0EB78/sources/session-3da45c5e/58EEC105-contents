@@ -1,0 +1,26 @@
+# Define the base URL and the range of files to download
+base_url <- "https://annarchive.com/files/Dungeon%20Magazine%20%"
+start_num <- 23001
+end_num <- 23150
+destination_folder <- "pdf_downloads/"
+
+# Create the destination folder if it doesn't exist
+if (!dir.exists(destination_folder)) {
+  dir.create(destination_folder)
+}
+
+# Loop through the range of numbers and download each PDF
+for (i in start_num:end_num) {
+  file_url <- paste0(base_url, i, ".pdf")
+  dest_file <- paste0(destination_folder, "Dungeon Magazine", i, ".pdf")
+  
+  # Download the file
+  tryCatch({
+    download.file(file_url, dest_file, mode = "wb")
+    message(paste("Successfully downloaded:", dest_file))
+  }, error = function(e) {
+    message(paste("Failed to download:", file_url))
+  })
+}
+
+message("Download process completed.")

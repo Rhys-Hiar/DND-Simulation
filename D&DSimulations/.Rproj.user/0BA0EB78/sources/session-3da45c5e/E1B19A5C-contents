@@ -1,0 +1,60 @@
+library(shiny)
+
+# Increase the maximum upload size to 30MB
+options(shiny.maxRequestSize = 30*1024^2)
+
+ui <- fluidPage(
+  titlePanel("Interactive Map from SVG"),
+  sidebarLayout(
+    sidebarPanel(
+      fileInput("file1", "Choose SVG File", accept = ".svg"),
+      verbatimTextOutput("info")
+    ),
+    mainPanel(
+      uiOutput("svgOutput")
+    )
+  ),
+  tags$head(
+    tags$script(HTML("
+      Shiny.addCustomMessageHandler('init', function(message) {
+        var regions = document.querySelectorAll('.region');
+        regions.forEach(function(region) {
+          region.addEventListener('click', function() {
+            Shiny.setInputValue('map_click', {id: this.id});
+          });
+        });
+      });
+    "))
+  )
+)
+
+server <- function(input, output, session) {
+  svg_content <- reactiveVal(NULL)
+  
+  observeEvent(input$file1, {
+    req(input$file1)
+    svg_content(readLines(input$file1$datapath))
+  })
+  
+  output$svgOutput <- renderUI({
+    req(svg_content())
+    tags$div(
+      HTML(svg_content())
+    )
+  })
+  
+  observe({
+    req(svg_content())
+    session$sendCustomMessage(type = "init", message = NULL)
+  })
+  
+  output$info <- renderText({
+    input$map_click$id
+  })
+  
+  session$onSessionEnded(function() {
+    stopApp()
+  })
+}
+
+shinyApp(ui, server)

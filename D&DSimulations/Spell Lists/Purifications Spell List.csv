@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1 - Purify Food/Water,1'R,-,10',1-PURIFY FOOD/WATER (P) Eliminates any disease or poison in any food and water within the radius.Special or magical diseases or poisons mav be given RR's if they are powerful enough
+2 - Detect Disease c,5'R,1 min/lvl,100',2- DETECT DISEASE (P) Detects any disease or source of disease; each round caster can concentrate on any one 5'R area within the range. 
+3 - Disease Purification,1 target,P,10',"3-DISEASEPUKIFICATION(r)stopsspreadordiseaseIncmanginrec- tion) already in the body of 1target: thus, no further damage due to the disease wil occur in the target's body."
+4 - Detect Poison c,5'R,1 min/lvl,100',-4 DETECT POISON (P) As Detect Disease except that only poison si detected.
+5 - Poison Purification,1 target,P,10',-5 POISON PURIFICATION (P) Neutralizes any 1poison in the system of 1target. Damage already sustained is not cured.
+6 - Disease Resistance,1 target,1 min/lvl,10',"-6 DISEASE RESISTANCE (U) Target gets an additional R against diseases (i.e., 2 RR's may be rolled, the one which is more favorable for the"
+7 - Poison Resistance,1 target,1 min/lvl,10',7-POISON RESISTANCE (U) As Disease Resistance except that target gets an additional RR against poisons rather than diseases.
+8 - Neutralize Disease,10'R,P,10',"-8 NEUTRALIZE DISEASE (P) Al diseases ni a 10R' are neutralized (i.e., sterilized and destroyed)."
+9 - Neutralize Poison,10'R,P,10',9- NEUTRALIZE POISON (P) Al poisons in a 10R' are rendered ineffec- tive.
+10 - Mental Cures,1 target,P,10',"10 - Mental Cures (P) Target is cured of any 1 mental disease (i.e., neuroses, paranoia, phobias, psychoses, etc.). Complete recovery takes 1-50 days"

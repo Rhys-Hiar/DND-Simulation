@@ -1,0 +1,29 @@
+#tiler script to generate coordinate system for my world
+library(tiler)
+library(leaflet)
+library(rgdax)
+library(raster)
+#non-geographic/simple CRS
+tiles <- file.path(tempdir(), "tiles")
+x <- system.file("/D&DSimulations/Kingdom of Chesterfield Map_Page_1.tiff", package = "tiler")
+
+#tile(x, tiles, 0)
+
+tile("Kingdom of Chesterfield Map_Page_1.png", "output_tiles", zoom = 4)
+
+
+(r <- raster(x))
+plot(r)
+
+leaflet() %>%
+  addTiles(urlTemplate = tile_dir, options = tileOptions(noWrap = TRUE)) %>%
+  setView(lng = 0, lat = 0, zoom = 2)
+
+
+
+img <- raster::brick("Kingdom of Chesterfield Map_Page_1.png")
+
+leaflet() %>%
+  addTiles() %>%
+  addRasterImage(img, opacity = 1) %>%
+  fitBounds(0, 0, ncol(img), nrow(img))  # Adjust bounds

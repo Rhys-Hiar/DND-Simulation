@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1 - pathlore,10'R,-,self,"1 - PATHLORE (1) Caster acquires avisual image of the nearest destination in both directions along any one path upon which he stands. For this purpose, a d e s t i n a t i o n is a n y m a n - m a d e s t r u c t u r e ( b r i a g e , n o u s e , c a s t l e , t o w n , g a t e , door, etc.) or physical barrier (the end of the path, a ford, a crossroads, a chasm, etc.).NOTE For the purposes of these spells, a ""path"" can be a road, highway, trail, or any worn track caused by the passage of animals or men. It may also be a corridor, underground passage, or tunnel; unless specifically limited by a particular spell."
+2 - Trap dectection c,5'R,1 min/lvl,10',2 - TRAP DETECTION (P) Caster has a 75% chance of detecting any out- door trap within the S'R concentrated upon. A different 5'R may be chosen Caしま しいいい。
+3 - Tracking c,self,C,self,3- TRACKING (I) Caster gets a +50 bonus when tracking.
+4 - Path Tale,self,-,self,4-PATH TALE (I) Caster acquires visual image of any users) of a given painwintaperiodorupto1nr/il.
+5 - Pathfinding c,1 mile R,C,1 mile,5-PATHFINDING (I) Caster gets a mental diagram of the locations and routes of any and al paths within a 1mile radius. This spell can only be used outdoors.
+6 - Tracks Lore,-,-,touch,6 - TRACKS LORE (I) Caster acquires a visual image of the being that left a particular set of tracks. Provides +52 bonus for tracking the being that left the tracks.
+7 - Detect Ambush,50'R,10 min/lvl,self,"7- DETECT AMBUSH (P) Allows caster to detect any hostile beings within a SOR: provides direction, but not the distance to the danger."
+8 - Passing Lore,5 mile R,-,touch,8- PASSING LORE (I) Caster acquires a visual and aural (sound) image of al beings who have passed within a SOR' of the object he touches within a period of up to 1hr/lvl.
+9 - Pathfinding c,self,C,5 miles,"9- PATHFINDING (I) As above, except the area of effect is a 5mile R."
+10 - Animal Tongues,,1 min/lvl,self,10- ANIMAL TONGUES (U) Caster gains knowledge of any one animal language (a member of the species must be within 100) for the duration of the spell.

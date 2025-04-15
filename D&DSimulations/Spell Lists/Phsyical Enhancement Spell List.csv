@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+Resist Heat,1 target,1 min/lvl,10',"Resist Heat (U): Target is totally protected from all natural heat to 150 degrees C, and adds +10 to RR's vs. heat spells and -10 to elemental heat and fire spell attacks"
+Resist Cold,1 target,1 min/lvl,10',"Resist Cold (U): Target is totally protected from all natural cold to -30 degrees C, and adds +10 to RR's vs. cold spells and modifies spells involving cold by 10 "
+Sly Ears,1 target,10 min/lvl,10',Sly Ears (U): Target's hearing is augmented to double normal effectiveness
+Balance,1 target,varies,10',Balance (U*): Adds +50 to any rolls for one slow maneuver requiring athletics
+Night Vision,1 target,10 min/lvl,10',Night Vision (U): Target can see 100' in normal darkness as if it were daylight. Magical darkness reduces the target's sight to 50'
+Sidevision,1 target,10 min/lvl,10',"Sidevision (U): Target has a 300 degree field of vision, all around except for directly behind them"
+Sounding,1 target,10 min/lvl,10',Sounding (U): Target's voice has its loudness tripled. This has no effect on spellcasting capabilities. 
+Water Vision,1 target,10 min/lvl,10',"Water Vision (U): As Nightvision, except target can see 100' ni water, even murky water."
+Water Lungs,1 target,10 min/lvl,10',"Waterlungs (U): Target can breathe water as if it were normal air, but he wil be unable to function in air (he wil pass out but not die)."
+Gas Lungs,1 target,10 min/lvl,10',"Gaslungs (U): As Waterlungs, except target can breathe any gas as fi it were normal air."

@@ -1,0 +1,32 @@
+library(plotly)
+library(sf)
+library(ggplot2)
+
+
+nc <- st_read("shape-files/NamedTest3/Main Border File j.shp")
+
+fig <- plot_ly(data = nc, fill = nc$NAME, name = nc$NAME) 
+
+fig
+
+st_geometry_type(nc)
+
+#   #   #
+
+nd <- read_sf("shape-files/Map Borders Original File Test1.shp")
+
+fih <- plot_ly(nd, fill = nd$NAME, name = nd$NAME) 
+
+fih
+
+
+#   #   #
+
+suck <- ggplot() +
+  geom_sf(data = nd, size = 1.5 , color = "black",
+          fill = nd$NAME) +
+  ggtitle("nc outline") +
+  coord_sf()
+
+
+ggplotly(suck)

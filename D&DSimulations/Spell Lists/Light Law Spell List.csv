@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1- Projected Light c,50' beam,10 min/lvl,self,1 PROJECTED LIGHT (F) A50' beam of light (like a flashlight) springs from the caster's palm. He can turn ti on or of by opening or closing his hand.
+2- Shock Bolt,1 target,- ,100',"2- SHOCK BOLT (E) Abolt of intense, charged light is shot from the palm of the caster; results are determined on the Bolt Attack Table."
+3 - Light 1,10' R,10 min/lvl,touch,-3 LIGHT I (F) Lights a 10R area about the point touched.
+4 - Shade,100' R,10 min/lvl,100',"4- SHADE (F) Al shadows and darkness in a 100' radius around the chosen center point deepen, aiding hiding by +25."
+5 - Sudden Light,10' R,-,100',"5- SUDDEN LIGHT (F) Causes a 10'R burst of intense light, all those inside the radius are stunned 1rnd/S pt of R failure."
+6 - Dark,10' R,10 min/lvl,touch,"-6 DARK (F) As Light, except that a 10R' of darkness results. It si the equivalent of a dark, moonless night."
+7 - Light V c,50' R,10 min/lvl,touch,"-7 LIGHT V(F) As above, except radius can be varied up to 50' (the size of the radius can be changed by concentrating 1round)."
+8 - Shock Bolt,1 target,- ,300',"8-SHOCK BOLT (E) As above, except range is 300'."
+9 - Dark c,50' R,10 min/lvl,touch,"9- DARK (F) As above, except radius can be varied up to 50' (as in Light V). "
+10 - Lightning Bolt,1 target,-,100',"10 - LIGHTNING BOLT (E) As Shock Bolt, except a Lightning Bolt si shot."

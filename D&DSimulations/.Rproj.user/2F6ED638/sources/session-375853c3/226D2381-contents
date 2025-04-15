@@ -1,0 +1,30 @@
+#chatgpt version of this. Let's hope it's not gonna be awful
+
+# Load necessary libraries
+library(leaflet)
+library(sf)
+library(leaflet.extras)
+library(plotly)
+
+# Read the shapefile (replace the path with your actual shapefile path)
+
+sf_data <- read_sf("shape-files/NamedTest/reconstructed_0.000Ma_polygon.shp")
+
+
+# Create the base ggplot
+gg_map <- ggplot() +
+  geom_sf(data = sf_data, color = "blue", fill = "lightblue", size = 0.5) +
+  theme_minimal() + # No background grid
+  theme(
+    axis.text = element_blank(),
+    axis.title = element_blank(),
+    panel.grid = element_blank(),
+    panel.background = element_blank(), # Remove background
+    plot.margin = margin(0, 0, 0, 0) # Optional: removes any margin around the plot
+  )
+
+# Convert ggplot to interactive plotly plot
+interactive_map <- ggplotly(gg_map)
+
+# Show the interactive plot
+interactive_map

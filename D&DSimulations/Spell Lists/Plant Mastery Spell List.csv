@@ -1,0 +1,11 @@
+﻿"10 - Plant Conrtol (F) Caster can control the automatic and/or mental processes of any1 plant. Caster can also control the plant's movements, if the plant is capable of movementbodylf ",Area of Effect,Duration,Range,Description
+1 - Plant Lore,1 plant,-,touch,1 - PLANT LORE (I) Caster Learns Nature and History of any 1 plant
+2 - Plant Tongues,self,1 min/lvl,self,2 - Plant Tongues (U): Caster gains knowledge of any one plant language (a member of the species must be withing 100') for the duration of the spell
+3 - Instant Herbal Cures,1 herb,-,touch,"3 - Instant Herbal Cures (U) Allows caster to cause any 1 herb to become capabale of being applied taking effect instantly. When the herb is subsequently used, its benefits/dangers will be immediately felt"
+4 - Herb Mastery,1 herb,P,touch,4 - Herb Mastery (U) Allows caster to double the potency of any 1 herb (growing or dead): spell may be employed but once per dose of herb. It must be cast immediately before the herb is used. It can be cast on a half of a dose at a time in order to get the effect of a full dose
+5 - Plant Location,1 mi R,-,1 mile,"5 -  Plant Location (P) Caster can locate members of any 1 species of plant, or he can find out what species are in the area"
+6 - Herb Cleansing,1 herb,P,10',"6 - Herb Cleansing (U): Allows caster to remove any harmful poisons, by-products, or side effects from 1 dose of herbs"
+7 - Speed Growth,10'R,1 day,10',"7 - Speed Growth (F) Allows caster to increase speed of growth of any 1 species of plant within the radius of effect by x100 (e.g., all of the grass in a 10'R)"
+8 - Herb Production,1 herb,P,touch,8 - Herb Production (U) Allows caster to grow an herb by planting the proper seed: The resulting herb is sterile and takes 1-10 rds to grow
+9 - Plant Growth,1 plant,P,touch,"9 - Plant Growth (F) Allows caster to double to size of any 1 plant: requires 1 day growth. If the plant does not already fully mature, it will achieve twice its normal size when it does reach full maturity"
+10 - Plant Control,1 plant,1 min/lvl,100',"10 - Plant Conrtol (F) Caster can control the automatic and/or mental processes of any1 plant. Caster can also control the plant's movements, if the plant is capable of movement"

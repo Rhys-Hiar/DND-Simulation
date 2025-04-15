@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1 - Long Whisper * c,1 point,C,50'/lvl,1 LONG WHISPER (F*) Caster's whisper can be directed to any point that he picks within 50°/lvi.
+2 - Silence,10'R,1 min/lvl,self,2 SILENCE (F) DURATION:1 min/Ivl RANGE: S Any sounds originating within up to 10' of the caster's body cannot be heard outside the radius.
+3 - Song Sounding II *,1 song,as song,2x song's,"-3 SONG SOUNDING I (F*) If cast the round before a spell on the Con- trolling Songs list, ti doubles the range of the Song."
+4 - Song II*,2 targets,as song,as song,"4- SONG I (F*) fI cast the round before a spell on the Controlling Songs list, it allows 2 targets to be affected."
+5 - Sonic Law c,10'R,C,self,"5-SONIC LAW (F) DURATION: CRANGE: SCaster may manipulate sound within 10' of his body. He can create any sound he wants, and fi he desires, that sound can be heard outside the radius."
+6 - Great Song *,10'R,as song,as song,"-6 GREAT SONG (F*) As Song II, except everyone within a 10' R of the caster is a target of the spel from the Controlling Songs list."
+7 - Silence,50'R,1 min/lvl,self,"7-SILENCE (F) As above, except radius si 50'."
+8 - Song Sounding III *,1 song,as song,3 x song's,"8-SONG SOUNDING III (F*) As above, except range increase is 3x."
+9 - Song III *,3 targets,as song,as song,"9 - SONG III (F*) As Song II, except that it increases the number of targets to 3"
+10 - Sonic Law c,100'R,C,self,"10 - SONIC LAW (F) As above, except radius si 100'."

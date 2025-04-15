@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1- Spell Store,1 spell,varies,self,"1-SPELL STORE (U) Caster may cast this spell in addition to, and just time, with no penalty. The Storing spel costs the same number of power points as the spel stored and no other spell may be cast while a spell is stored. Essence spell. If the attacker's R si successful, the attack spel proceeds normally. Other- wise, the attack spell has no effect."
+2 - Cancel Essence,self,C,self,"-2 CANCEL ESSENCE (F*) This spell helps protect the caster from Essence spell attacks. When the Cancel Essence caster is attacked by a spell of the Essence realm, the attacker must make a R against the Cancel "
+3 - Rune 1,1 sheet,varies,touch,3- RUNE I (F) This spell inscribes a spell on a specially prepared piece of paper (called rune paper); the rune can then be used to cast the inscribed spel onceusi ngthenormatprocedureforcastingspells). Rune spell and then the spell to be inscribed. Rune I can only inscribe 1st level spells. The rune paper can be reused. Inecastermustcastthe
+4 - Cancel Cannel,self,C,self,"4-CANCEL CHANNELING (F*) As Cancel Essence, except only Chan- neling spells are affected."
+5 - Rune 2,1 sheet,varies,touch,"5 - RUNE II (F) As Rune 1, except 1st-2nd Ivl spells may be inscribed."
+6 - Dispel Essence,10' R ,C,self,"6 - DISPEL ESSENCE (F*) As Cancel Essence, except dispelling effect is in a 10R' about the caster and any already existing spells ni the radius must save (with a + 30 modification) or be canceled."
+7 - Rune 3,1 sheet,varies,touch,"-7 RUNE III (F) As Rune I, except 1st-3rd Ivl spels may be inscribed."
+8 - Dispel Channeling,10' R ,C,self,"-8 DISPEL CHANNELING (F*) As Dispel Essence, except only Channel- ing spells are affected."
+9 - Rune 5,1 sheet,varies,touch,"9 - RUNE V (F) As Rune I, except 1st - 5th Ivl spells may be inscribed."
+10 - Sign of Stunning,1 cu',varies,touch,"10 - SIGN OF STUNNING (F) Inscribes a ""Sign"" on a non-mobile surface. A Sign can be triggered by one of the following (decided by caster): after a chosen period of time, certain movements, certain sounds, touch, reading, etc. Stuns the triggering victim for 10 min/10 pt of RR failure."

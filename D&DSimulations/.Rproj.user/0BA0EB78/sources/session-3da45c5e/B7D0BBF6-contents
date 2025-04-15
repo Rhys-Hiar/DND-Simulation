@@ -1,0 +1,7 @@
+library(DT)
+
+Alchemical_Supplies <- read_excel("Equipment/Dungeoneer's Shopping Guide/Alchemical Supplies.xlsx")
+
+View(Alchemical_Supplies) 
+
+datatable(Alchemical_Supplies)

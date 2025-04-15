@@ -1,0 +1,116 @@
+library(shiny)
+library(bslib)
+#ADND.Treasure.Types <- read.csv("~/Desktop/Personal/D&D/D&DSimulations/Treasure/ADND Treasure Types.csv", header=FALSE)
+
+
+#set_first_row_as_colnames <- function(data) {
+#  new_colnames <- as.character(unlist(data[1, ]))  # Extract the first row as column names
+#  data <- data[-1, ]                              # Remove the first row
+#  colnames(data) <- new_colnames                  # Set new column names
+#  return(data)
+#}
+
+# Apply the function
+#ADND.Treasure.Types <- set_first_row_as_colnames(ADND.Treasure.Types)
+
+
+ui <- fluidPage(
+  titlePanel("Random Encounter Tables"),
+  sidebarLayout(
+    sidebarPanel(
+      selectInput(
+        "Treasure_Type_Input",
+        label = "Select Treasure Type",
+        choices = ADND.Treasure.Types$`Treasure type`
+      ),
+      fileInput("encounter_table", "Upload Encounter Table (CSV)", accept = ".csv"),
+      actionButton("roll_tresasure_list_run", "Roll For Treasure!")
+    ),
+    mainPanel(
+      textOutput("column_names"),
+      textOutput("test_result"),
+      textOutput("results")
+    )
+  )
+)
+
+server <- function(input, output, session) {
+  
+  observeEvent(input$roll_tresasure_list_run, {
+    #temp_vec <- ADND.Treasure.Types[input$Treasure_Type_Input,]
+   Treasure_Type_Input <- input$Treasure_Type_Input
+   row_number <- which(ADND.Treasure.Types$`Treasure type` == Treasure_Type_Input)
+    output$test_result <- renderText({
+      paste0(ADND.Treasure.Types[row_number, ])
+    })
+      
+      #renderText({
+      #if (nrow(match) > 0) {
+      #  paste("You rolled:", dice_roll, "- Result:", match$Encounter[1])
+      #} else {
+      #  paste("You rolled:", dice_roll, "- No match found in the table.")
+    # Function to process a specific row
+    process_row_with_column_names <- function(ADND.Treasure.Types, row_index) {
+      row <- ADND.Treasure.Types[row_index, ]  # Get the selected row
+      col_names <- colnames(ADND.Treasure.Types)  # Get the column names
+      results <- c()  # Initialize a vector to store results
+      
+      for (i in 2:ncol(ADND.Treasure.Types)) {  # Skip the first column (e.g., "Name")
+        cell <- row[[i]]
+        col_name <- col_names[i]  # Get the column name
+        
+        # Check for "nil" value
+        if (tolower(cell) != "nil") {
+          # Parse the dice range and percentage chance
+          matches <- regmatches(cell, regexec("([0-9]+)-([0-9]+):\\s*([0-9]+)%", cell))
+          if (length(matches[[1]]) > 1) {
+            dice_min <- as.numeric(matches[[1]][2])
+            dice_max <- as.numeric(matches[[1]][3])
+            chance <- as.numeric(matches[[1]][4])
+            
+            # Roll a percentage chance (1-100)
+            percentage_roll <- sample(1:100, 1)
+            if (percentage_roll <= chance) {
+              # Roll the die within the given range
+              die_roll <- sample(dice_min:dice_max, 1)
+                results <- c(results, paste(row[[1]], "-", col_name, ":", "You rolled", die_roll))
+            output$results <- renderText({paste0(results)}) 
+                }
+          }
+        }
+      }
+      
+      return(results)
+    }
+    
+    # Example usage: Process row A (row_index = 1)
+    results <- process_row_with_column_names(ADND.Treasure.Types, row_index = 1)
+    if (length(results) > 0) {
+      print(results)
+    } else {
+      print("No rolls succeeded.")
+    }
+    
+    # Example usage: Process row B (row_index = 2)
+    results <- process_row_with_column_names(ADND.Treasure.Types, row_index = 2)
+    if (length(results) > 0) {
+      print(results)
+    } else {
+      print("No rolls succeeded.")
+    }  
+    })
+  output$column_names <- renderText({paste0(
+    colnames(ADND.Treasure.Types)
+  )})
+   # })
+  
+  # Sample row of data
+#row <- c("A", "1-6: 25%", "1-6: 30%", "nil", "1-6: 35%", "1-10: 40%")
+
+
+}
+
+
+
+# Run App
+shinyApp(ui, server)

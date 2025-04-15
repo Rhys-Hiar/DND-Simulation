@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1 - Trap Detection c,5'R,1 min/lvl,10',-1 TRAP DETECTION (P) Caster has a 75% chance of detecting any out- door trap within the 5R' concentrated upon. Adifferent SR' may be chosen each round.
+2 - Nature's Awareness c,100'R,C,self,"-2 NATURE'S AWARENESS (I) Alows caster to monitor animate activity in the area (i.e., movement, combat and maneuvers). This spell may only be used if the radius of effect contains plants and/or animals."
+3 - Storm Prediction ,1 mi/lvl R,-,self,3- STORM PREDICTION (I) Gives caster a95% chance of predicting time and type of any rain or storms within 15 min over next 24 hour period.
+4 - Weather Prediction ,1 mi/lvl R,-,self,"-4 WEATHER PREDICTION (I) As Storm Prediction, except ti predicts the time frame, nature and severity of the general state of the weather."
+5 - Nature's Awareness c II,300'R,C,self,"5- NATURE'S AWARENESS (I) As above, except that the radius is 300'. "
+6 - Breeze Call,20' cone,1 rnd/lvl,self,"6 - BREEZE CALL (F) Caster causes a swirling breeze to arise from around his person which will blow in a set direction. It drives away any suspended or gaseous matter (dust, clouds, etc.) and subtracts 30 from all missile attacks passing through it. The breeze affects a 20' cone (caster at tip, 20' at base) and hasawindspeedof10mph."
+7 - Waiting Awareness,10'R,1 hr/lvl,self,"7- WAITING AWARENESS (1) As Nature's Awareness, except that ti alows the caster to set the spell on ""alarm"": any animate activity in the radius will cause caster to be alerted."
+8 - Fog Call,10'/lvl R,P,10'/lvl,8-FOG CALL (F) Creates a dense natural fog within the radius of effect. The fog obscures vision and subtracts 50 from all missile attacks.
+9 - Nature's Awareness III c,500' R,C,self,"9- NATURE'S AWARENESS (I) As above, except that radius is 500'."
+10 - Weather Prediction,1 mi/lvl R,-,self,"10- WEATHER PREDICTION (I) As above, except that the prediction period is 1day/Ivl."

@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1 - Leaping *,1 target,1 rnd,100',1 LEAPING (U*) Allows the target to leap 50' laterally or 20' vertically (or some combination of lateral and vertical movement) in the round that the spel was cast.
+2 - Landing *,1 target,until lands,100',"-2 LANDING (U*) Allows the target to land safely in a fall up to a distance equal to 20 per level of caster, and to take that distance off the severity of any longer fall (e.g., a 2nd level caster could reduce the effects of a 50' fall to a 10' fall)."
+3 - Leaving (100'),1 target,- ,10',"3- LEAVING (U) Caster teleports target to a point up to 100' away, but there can be no intervening barriers in a direct line between the target and the point (for these purposes a barrier si anything he could not physically go through; closed doors and bars are barriers; a pit is not)."
+4 - Levitation,1 target,1 min/lvl,10',4- LEVITATION (U) Allows target to move up and down vertically at a rate of up to 10/rnd; horizontal movement is possible only through normal means.
+5 - Fly (75'/rnd),1 target,1 min/lvl,10',"-5 FLY (U) As Levitation, except target can fly (move horizontally and ver- tically) at a rate of up to 75'/rnd (or 5 MPH)."
+6 - Portal,3'x6'x3',1 rnd/lvl,touch,"6-PORTAL (U) Opens aportal 3'x6'x3' ni any solid surface, through which anyone or anything can pass. The surface appears unaffected but shimmers slightly (a perception roll would be necessary to notice it)."
+7 - Fly (150'/rnd),1 target,1 min/lvl,10',"7-FLY (U) As above, except target flies at a rate of up to 150'/rnd."
+8 - Long Door (100'),1 target,-,10',"8- LONG DOOR (U) As Leaving, except caster can pass through barriers by specynsexact distalices."
+9 - Leaving (300'),1 target,-,10',"9- LEAVING (U) As above, except target can be moved up to 300'."
+10 - Teleport,1 target,-,10',"10 - TELEPORT (U) As Long Door, except movement range is 10 miles/Ivl. This spell is very risky. The caster has the following chances for error (target arrives off-center): Never seen place but have description and loca- tion =50%; visited briefly for 1hr. =25%; lived in 24 hr. =10%; lived in 1 week = 1%; lived in 1yr. = .01%. In case of error: first determine direction of error (randomly), then determine distance of error (make an open-ended roll for number of feet)."

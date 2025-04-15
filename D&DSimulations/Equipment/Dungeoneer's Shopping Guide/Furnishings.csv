@@ -1,0 +1,54 @@
+﻿Furnishings,Price,Currency
+"Armchair, padded",3,gp
+"Armchair, wooden",1,gp
+"Bed, double",8,gp
+"Bed, single",5,gp
+"Bench, padded",4,gp
+"Bench, wooden",2,gp
+"Bookcase, 4'x5'x1'",5,gp
+"Bowl, pewter",2,sp
+"Bowl, pottery",5,cp
+"Bowl, silver",2,gp
+Buffet,7,gp
+Cabinet,3:8,gp
+"Carpet, 1 sq. yd. ",1:10,sp
+"Chair, padded",2,gp
+"Chair, wooden",1,ep
+Chandelier,10,gp +
+Chest of drawers,5:7,gp
+"Cup, pewter",2,sp
+"Cup, pottery",4,cp
+"Cup, silver",2,gp
+"Cutrains/Drapes, 1 sq. yd.",1:4,sp
+Cushion,1:3,sp
+"Cutlery, copper",1,sp/piece
+"Cutlery, pewter",2,sp/piece
+"Cutlery, silver",1,ep/piece
+"Decanter, crystal",10,gp
+"Decanter, pottery",6,cp
+"Decanter, silver",4,gp
+Desk,15,gp
+"Goblet, crystal",4,gp
+"Goblet, pewter",4,sp
+"Goblet, silver",2,gp
+Hamper,7:15,sp
+"Kettle, iron, various sizes",2:12,gp
+Loom,3:7,gp
+Mat,15,sp
+"Mattress, feather, double",4,gp
+"Mattress, feather, single",2,gp
+"Mattress, straw, double",3,ep
+"Mattress, straw, single",1,ep
+"Mirror, 1 sq. foot",10:15,gp
+"Pillow, feather",1:2,sp
+"Plate, pewter",2,sp
+"Plate, pottery",3,cp
+"Plate, silver",2,gp
+Rug,1:2,gp
+"Sconce, wall",5,cp
+Sofa or Couch,30,gp
+Stool,3,ep
+Table,1 + 2/sq. ft,sp
+Tub,2:5,gp
+"Wardrobe, plain",15,gp
+"Wardrobe, with mirror(s)",25,gp +

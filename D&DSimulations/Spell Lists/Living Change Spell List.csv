@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1 - Run *,1 target,10 min/lvl,10',"-1 RUN I (F*) Target may run (2x walking pace) without tiring, but once he stops or performs some other action the spell is canceled."
+2 - Speed 1 *,1 target,1 rnd,10',"-2 SPEED I (F*) Target may act at twice his normal rate (200% of normal activity), but immediately afterwards must spend a number of rounds equal to the rounds speeded at half rate."
+3 - Self Size Changing,self,1 min/lvl,self,"3 - SELF SIZE CHANGING (F) Caster may shrink to 1⁄2 his normal mass (height in normal situations); there si no decrease in his strength. Caster may also enlarge to 1⁄2 his normal mass, and there si no increase in his strength (ex-"
+4 - Sprirt *,1 target,10 min/lvl,10',"-4 SPRINT (F*) As Run I, except target may move at 3x walking pace."
+5 - Change of Kind,1 target,10 min/lvl,10',"-5 CHANGE OF KIND (F) Caster can alter target's form ot hte form of any desired humanoid race, the target's mass cannot change by more than 10%. "
+6 - Haste 1 *,1 target,1 rnd,10',"6- HASTE I(F*) As Speed I, except no half rate penalty round follows the haste round"
+7 - Speed 3,varies,varies,10',"-7 SPEED III (F*) As Speed I, except duration si 3rounds for 1target OR 2 rounds for 1target and 1 round for i other target OR any other combination of targets and rounds that total 3 rounds of speed."
+8 - Fast Sprint *,1 target,10 min/lvl,10',"8-FAST SPRINT (F*) As Run I, except target may move at 4x walking pace."
+9 - Size Changing,1 target,10 min/lvl,10',"9-SIZE CHANGING (F) As Self Size Changing, except mas change si limited to 10% of his mass/Ivl and it can be cast on any material that is living or was once living."
+10 - Haste 3 *,varies,varies,10',"10 -HASTE III (F*) As Speed I, except no half rate penalty rounds follow the haste rounds."

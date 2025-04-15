@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1- Calm Song c,1 target,C,50',"1 CALM SONG (F) Target is calmed and cannot take any aggressive (of- fensive) action, while the caster plays/sings (requires concentration) and keeps the target within sight or within the spell's range."
+2 - Holding Song c,1 target,C,50',"2- HOLDING SONG (F) As Calm Song, except target can only take 25% of normalaculot."
+3 - Stun Song c,1 target,C,50',"3- STUN SONG (F) As Calm Song, except target si stunned."
+4 - Silent Song fl,1 target,C,50',"4- SILENCE SONG (F) As Calm Song, except target may not speak."
+5- Sleep Song c,1 target,C,50',"5- SLEEP SONG (F) As Calm Song, except target falls into a light sleep. "
+6 - Charm Song c,1 target,C,50',"6- CHARM SONG (F) As Calm Song, except target believes caster is a good friend, and fi the caster plays/sings for at least 3rounds the effect of the spel lasts for 10 minutes after the caster stops."
+7 - Fear's Song c,1 target,C,50',"7 - FEAR'SSONG (F) As Calm Song, except target fears caster and attempts to get away from him."
+8 - Calm Song True,1 target,varies,50',"-8 CALM SONG TRUE (F) As Calm Song, except that after the caster stops playing/singing hte efect wil continue for the number of rounds the caster has already played/sung (e.g., fi the caster sings for 3rounds then after he stops the targel will remain calm for 3 more rounds)."
+9 - Stun Song True c,1 target,varies,50',"9 STUN SONG TRUE (F) As Calm Song True, except target si stunned. 10 - FORGETTING SONG (F) Target wil forget what transpired in acer- tain period of time specified by the caster (within 1day/lvi). The length of the time period si equal to the amount of time the caster plays/ sings."
+10 - Forgetting Song,1 target,P,50',10 - FORGETTING SONG (F) Target wil forget what transpired in acer- tain period of time specified by the caster (within 1day/lvi). The length of the time period si equal to the amount of time the caster plays/ sings.

@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1 - Nasal Repair,1 nose,P,touch,1 - NASAL REPAIR (U) Repairs any nose damage short of complete nose loss.
+2 - Minor Nerve Repair,1 area,P,touch,2-MINOR NERVE REPAIR (U) Repairs any minor nerve damage in 1 a r e a : r e c o v e r y t i m e I — 10 h r s .
+3 - Minor Ear Repair,1 ear,P,touch,"3-MINOR EAR REPAIR (U) Repairs any external ear damage, including ear loss (regeneration takes 1-10 hours)."
+4 - Minor Eye repair,1 eye,P,touch,"4- MINOR EYE REPAIR (U) Repairs any minor eye damage (e.g., corneal scratch, detached retina, or removal of foreign object)."
+5 - Major Nerve Repair,1 area,P,touch,5 - M A J O R NERVE REPAIR (U) As Minor Nerve Repair except that it repairs any 1area of major nerve damage: recovery time 1- 10 hours.
+6 - Major Ear Repair,1 ear,P,touch,"6 - MAJOR EAR REPAIR (U) As Minor Ear Repair except that it repairs any internal ear damage (e.g., restore hearing)."
+7 - Joining *,1 limb,P,touch,"7- JOINING (U*) When used with the Joining spells on the other healing lists (Blood Ways and Bone/Muscle Ways), caster can reattach one severed limb; recovery time 1-10 days."
+8 - Major Eye Repair,1 eye,P,touch,8 - MAJOR EYE REPAIR (U) As Minor Eye Repair except that it repairs any eye damage short of complete eye loss.
+9 - Nerve Repair True,1 area,P,touch,9 - NERVE REPAIR TRUE (U) As Major Nerve Repair except that recovery U l aalcous
+10 - Organ Repair,1 organ,P,touch,10- ORGAN REPAIR (U) Repairs damage to 1 organ that has not been completely destroyed: recovery time 1- 10 hours: does not affect brain.

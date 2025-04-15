@@ -1,0 +1,29 @@
+#Leaflet Trial with new custom shp files
+
+# for loading our data
+library(readr)
+library(sf)
+# for plotting
+library(leaflet)
+library(leaflet.extras)
+# for more stuff
+library(dbscan)
+library(dplyr)
+library(openrouteservice)
+library(geosphere)
+library(magrittr)
+
+
+Temp <- read_sf("shape-files/NamedTest2/Maain Border File i.shp")
+
+
+usa_2 <- ggplot() +
+  geom_polygon(
+    data = Temp,
+    aes(x = x, y = y, group = group, fill = region),
+    alpha = 0.4, color = "black"
+  )
+
+usa_2
+
+usd <- usa_2$data$NAME

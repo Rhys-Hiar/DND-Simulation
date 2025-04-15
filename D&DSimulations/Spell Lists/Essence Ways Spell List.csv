@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1 - Detect Essence c,5' R,1 min/lvl,100',1 DETECT ESSENCE (P) Detects any item or active spell from the Essence realm; each round caster can concentrate on any 5'R area within the range. 
+2 - Text Analysis 1,text,1 min/lvl,self,"2-TEXT ANALYSIS I (1) Caster can read text written in an unknown language, but only understands basic concepts from it."
+3 - Detect Channel c,5' R,1 min/lvl,100',"-3 DETECT CHANNELING (P) As Detect Essence, except realm si Chan- neling."
+4 - Detect Invisible c,5' R,1 min/lvl,100',"-4 DETECT INVISIBLE (P) As Detect Essence, except detects invisible things: ail attacks against an invisible thing so detected are moditied by -SU. No attack can normally be made without some form of detection."
+5 - Detect Traps c,5' R,1 min/lvl,100',"5- DETECT TRAPS (P) As Detect Essence, except ti gives a75% chance of detecting a trap (certain traps may receive modifications to this chance)."
+6 - Text Analysis 2 ,text,1 min/lvl,self,"-6 TEXT ANALYSIS I (I) As Text Analysis I, except gives a complete technical analysis (vocabulary and syntax) but not an understanding of idioms (jargon), subtle implications or cultural references."
+7 - Detect evil c,5' R,1 min/lvl,100',"7- DETECT EVIL (P) As Detect Essence, except detects fi a being or item si evil OR if an item was created by evil OR if an item was used by a very evil per- son for an extended period."
+8 - Location c,1 target,1 min/lvl,100',8- LOCATION (P) Gives the direction and distance of any specific object or place that the caster is familiar with OR has had described in detail.
+9 - Perceive Power c,5' R,1 min/lvl,100',"9- PERCEIVE POWER (P) As Detect Essence, except it will give an estimate of the power (level or potency) of the person or item that casted the spell examined."
+10 - Delving,1 item,-,touch,10 - DELVING (I) Gives significant details about an item's construction and purpose (not specife powers).

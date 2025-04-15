@@ -1,0 +1,15 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1 - condensation,- ,P,touch,"-1 CONDENSATION (F) Condenses 1cu' of water from the surrounding air; takes between 1nd ni the most humid areas and 10 min, ni the driest resent"
+2- Fog Call,10' R / lvl,P,10'/lvl,2- FOG CALL (F) Creates a dense natural fog within the radius of effect. The fog obscures vision and subtracts 50 from al missile attacks which must pass through it.
+3 - Water Wall c,10x x10' x1',C,100',"-3 WATERWALL (E) Creates a 10x10'xl' wall of modified by -80. It must be affixed to a solid or liquid surface. water, all movement through requires a maneuver roll modified by 40. Attacks through it are"
+4 - Water Bolt,1 target,-,100',4- WATER BOLT (E) A bolt of water si shot from the palm of the caster; results determined on the Bolt Attack Table.
+5 - Unfog,10'R ,P,100',5 -  UNFOG (F) Disperses fog ni an area up to the radius of effect.
+6 - Calm Water c,100'R,C,100',6 - CALM WATER (F) Water within radius is calmed; waves are cut by 20' in center and less towards the perimeter.
+7 - Waterwall True,10'x10'x1',1 min/lvl,100',"-7 WATERWALL TRUE (E) As Waterwall, except caster need not concen- trate and the duration is 1min/Ivl."
+8 - Clean Water,1000 cu'/lvl,P ,100',8 - C L E A N WATER (F) Removes all sediment and dissolved substances t r o m a v o r u m e o r w a t e r u p t o l o w c u n v i .
+9 - Water Bolt,1 target,-,300',"9- WATER BOLT (E) As above, except range si 300'."
+10 - Call Rain,100'R/lvl,10 min/lvl,100'/lvl,"10 - CALL RAIN (F) fI there are clouds ni the sky, ti rains outdoors for the duration of the spell."
+,,,,
+,,,,
+,,,,
+,,,,

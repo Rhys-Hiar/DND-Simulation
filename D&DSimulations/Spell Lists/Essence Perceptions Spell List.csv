@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+ 1- Familiar,1 target,P,touch,1-FAMILIAR (P) The caster can attune himself to a small animal (to be called his familiar). The caster must obtain the animal (can be no more than 1 0 % or casters o w n mass) and cast the spell o n the animal once/day for 1 week (concentrating for 2hrs/day). The caster can then control the familiar and view the world through its senses by concentrating on it (must be within 50°/Ivl). If the animal is killed the caster will be at -25 for all actions for 2
+2 - Presence 1 *c,10' R,1 rnd/lvl,self,"2- PRESENCE (P*) When he concentrates, caster is aware of the presence of all sentient/thinking beings within 10'; i.e., the caster knows where they are. He also gets a feelng of which are intelligent and which are animals."
+3 - Listen c,varies,1 min/lvl,10',"3 - LISTEN (U) Caster can pick a point up to 10' away, and as long as he con- centrates he wil hear as fi he were at that point (there can be intervening ob- jects such as walls). He may stop concentrating and later continue as long as the duration of the spell has not expired."
+4 - Presence III *c ,30' R,1 rnd/lvl,self,"-4 PRESENCE III (P*) As Presence I, except that the radius of awareness is 30°"
+5 - Long Ear,varies,1 min/lvl,100',"-5 LONG EAR (U) As Listen except that caster's point of hearing may be moved independently up to 100' away (moves at 10'/nd), fi he si physically able to go there (i.e., he could not send his point of hearing through walls or closed doors)."
+6 - Watch c,varies,1 min/lvl,10',"6- WATCH(U)AsListen,exceptthecasterseesfromthefixedpoint(itcan rotate)."
+7 - Long Eye,varies,1 min/lvl,100',"-7 LONG EYE (U) As Long Ear, except the caster sees from the moving point (it can rotate)."
+8 - Observe,varies,1 min/lvl,100',"8- OBSERVE (U) As Listen and Watch, except caster can listen and watch at the same time and the range si 100.'"
+9 - Presence V,50' R,1 rnd/lvl,self,"9 - PRESENCE III (P*) As Presence I, except that the radius of awareness si 50.'"
+10 - Telepathy c,1 target,1 rnd/lvl,10',10 - TELEPATHY (P) Caster can read the surface thoughts of one target. If the target makes a RR by more than 25 he realizes what is happening.

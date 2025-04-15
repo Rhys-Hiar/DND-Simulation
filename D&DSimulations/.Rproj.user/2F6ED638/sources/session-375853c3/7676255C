@@ -1,0 +1,28 @@
+{
+    "id": "7676255C",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1743554215009.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "id": "b93d2715eda2462385d39cc3d0923577",
+        "name": "usa_2",
+        "title": "usa_2",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 0,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1743554215009,
+    "read_only": false,
+    "read_only_alternatives": []
+}

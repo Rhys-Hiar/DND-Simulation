@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+Vibrations,up to 5 lb,1 min/lvl,100',"1- VIBRATIONS (F) Causes an object (up to 5lb. mass) to vibrate rapidly; if fragile it may break (roll a RR). If ti is an object that is being held, the holder must make a RR or fumble it (each round)."
+Shield,self,1 min/lvl,self,"-2 SHIELD (F*) Creates an invisible force shield in front of the caster; it subtracts 25 from melee and missile attacks and functions as a normal shield (e.g., it is operated as if held by the caster) if the caster is not already using"
+Staying,up to 5 lb,1 min/lvl,100',"-3 STAYING (F) Exerts 5lb. of pressure on a person or object. Object can- not be moved by staying alone, and pressure can only be ni one direction. -4 TELEKINESIS (F) One object can be moved (up to 5lb. in mass), 1/sec- ond with no acceleration. Living beings or items in contact with a living being get a normal R based on the living being. If the caster stops concentration before the duration si up, the object remains stationary as fi ti had ""Staying"" thrown on it."
+Telekenesis,up to 5 lb,1 min/lvl,100',"-4 TELEKINESIS (F) One object can be moved (up to 5lb. in mass), 1/sec- ond with no acceleration. Living beings or items in contact with a living being get a normal R based on the living being. If the caster stops concentration before the duration si up, the object remains stationary as fi ti had ""Staying"" thrown on it."
+Deflections,1 missile,N/A,100',-5 DEFLECTIONS (F*) Caster can deflect any one missile that passes within 100 of him; this causes 100 to be subtracted from the missile's attack (missile must pas through caster's field of vision).
+Vibrations,up to 20 lb,1 min/lvl,100',"6- VIBRATIONS (F) As above, except mass limit is 20 lbs."
+Bladeturn,1 melee attack,N/A,100'," 7-BLADETURN (F*) As Deflections I, except its effect si against 1melee"
+Staying,up to 20 lb,1 min/lvl,100',"8-STAYING (F) As above, except mass limit si 20 Ibs."
+Telekenesis,up to 20 lb,1 min/lvl,100',"9- TELEKINESIS (F) As above, except mass limit si 20 lbs."
+Aiming,1 missile,1 round,N/A,"10 - AIMING (F*) By concentrating on the mind of a missile firer and the flight of the missile, the caster causes + 50 to be added to the attack roll of the missile. The caster must concentrate, touch the firer and see the missile for the entire round that the missile is fired."

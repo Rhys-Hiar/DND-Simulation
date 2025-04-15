@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1 - Study I c,Self ,C,self,"1- STUDY I (U) When concentrating with this spell, the caster can retain anything he reads or learns as fi he had a photographic memory with total recall. It does not affect his comprehension."
+2 - Learn language II c,Self ,C,self,"-2 LEARN LANGUAGE I (U) When concentrating with this spell, the rate at which the caster can learn a language si doubled. This means that any development of language skill si doubled in effectiveness (i.e., one develop- ment point increases a language skill 2 ranks and 3points increases it 4ranks). "
+3 - Langugage lore ,1 text,-,touch,3 LANGUAGE LORE (I) Caster learns what language a piece of text si written ni. He may also learn the identity of the author fi the caster has seen his work before or if the author si noteworthy or distinctive.
+4 - Mind's Lore I,1 target,1 rnd,50',"4-MIND'S LORE I(P) Caster can scan the target's mind, and receive part of the target's knowledge (conscious and unconscious) concerning one very specific topic. There si a 10% chance for each piece of information that the target has on the topic. The target gets a RR."
+5 - Study II c,Self ,C,self,"5- STUDY I (U) As Study ,I except caster can also read at x2 normal rate. "
+6 - Interpreting Ear c,1 speaker,C,self,6- INTERPRETING EAR (P) Alows caster to understand one speaker regardless of what language he is speaking. The caster may choose adifferent speaker each round.
+7 - Learn Language III c,Self ,C,self,"7- LEARN LANGUAGE III (U) As Learn Language II, except learning rate "
+8 - Mind's Lore III,1 target,1 rnd,50',"8 - MIND'S LORE III (P) As Mind's Lore I, except 30% of knowledgeis obtained"
+9 - Study III c,Self ,C ,self,"9 STUDY III (U) As Study I, except caster can also read at 3x the normal rate."
+10 - Passage Origin , self,C,self,"10 - PASSAGE ORIGIN (I) As Language Lore except that the caster can also tel if the text has been translated; and fi so what the original language was. From hte dialect and idioms, he can also tell the approximate date that the text was originally written and the region in which it was written."

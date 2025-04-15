@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1 - Breeze Call c,20' cone,1 rnd/lvl,self,"-1 BREEZE CALL (F) Causes a swirling breeze to arise from around his per- son which wil blow ni a set direction. It drives away any suspended or gaseous matter (dust, clouds. etc.) and subtracts 30 from all missile attacks passing through it. The breeze affects a 20' cone (caster at tip, 20' at base). "
+2 - Airwall ,10'x10'x3',C,100',"2- AIRWALL (F) Creates a transparent 10'x10'x3' wal of dense churning air, all movement through it requires a maneuver roll with a -25 modification. Attacks through it are modified by -50."
+3 - Condensation c,V,V,T,3-CONDENSATION (F) Condenses 1cu' of water from the surrounding air into the cupped hands of the caster (he may allow the water to overflow in- to a container held under his hands). The caster must concentrate while the water condenses; it takes 1 rnd in teh most humid climates and 10 rounds in the most dry climates (in between elsewhere). 
+4 - Stun Cloud,5'R,6 rnd,10',"4- STUN CLOUD (F) Creates a5'R cloud of charged gas particles: delivers a "" C "" e l e c t r i c i t y c r i t i c a l o n 1 s t a n d 2 n d r o u n d s , a "" B "" o n r o u n d s 3 a n d 4, a n d a n ""A"" on rounds 5and .6 It drifts with the wind and affects al within its radius. RR's are allowed."
+5 - Air Stop c,10'R,C ,100',"5- AIRSTOP (F) Cuts all generalized air movement (i.e., wind) by up to 30 MPH in a 10R."
+6 - Stun Cloud,10'R,6 rnd,20',"6 - STUN CLOUD (F) As above, except radius si 10.'"
+7 - Vacuum ,5'R,-,100',"7- VACUUM (F) Creates a5R' near-vacuum. Al ni radius take a""B"" impact critical, as air leaves and rushes back in. RR's are allowed."
+8 - Airstop c,20'R,C,100',"-8 AIRSTOP (E) As above, except radius si 20.'"
+9 - Stun Cloud,20'R,6 rnd,40',"9- STUN CLOUD (F) As above, except radius is 20'."
+10 - Death Cloud,5'R,10 rnd,10',"10- DEATH CLOUD (F) As Stun Cloud, except radius is S'R: delivers an ""E"" on rounds 1and 2, aD"""" on rounds 3and 4, a""C"" on rounds 5and ,6 a ""B"" on rounds 7 an 8, and an ""A"" on rounds 9 and 10."

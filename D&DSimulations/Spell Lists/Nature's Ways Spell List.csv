@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1 - Water Finding,1 mile R,-,self,"-1 WATER FINDING (I) Locates al sources of running surface water, ex- posed groundwater, etc. exceeding 1gallon: caster learns approximately size and quality of sources."
+2 - Fire Starting ,1'R,P,touch,2-FIRE STARTING (F) Causes any wood (or any inanimate organic material) that the caster chooses within l' of caster's palm to ignite and start burning (if it wil ignite at a temp. les than or equal to that of wood).
+3 - Heat Resistance *c,self,1 min/lvl,self,-3 HEAT RESISTANCE (U*) Protects caster from natural heat up to 200 degrees F and adds +20 to RR vs. heat or -20 vs. elemental fire attacks.
+4 - Cold Resistance * c,self,1 min/lvl,self,"4 - COLD RESISTANCE (U*) Protects caster from natural cold to -20 degrees, and adds + 20 to RR vs. cold or -20 vs. elemental cold attacks. "
+5 - Food Finding,1 mile R,-,self,"5-FOOD FINDING (I) Caster learns location, type and approximate quanmy or all ediole food sources (eltner dead animal matter, or any plant)."
+6 - Sterilization,1 cu'/lvl,-,touch,"6- STERILIZATION (P) Sterilizes up to 1cu'/Ivl of any inanimate solid or liquid. That is, ti eliminates living creatures smaller than 1⁄4"" ni length, but it will not affect larger creatures or inanimate poisons or other material."
+7 - Shelter Finding,1 mile R,-,self,"7 - SHELTER FINDING (I) Caster learns location, type, and approximate size of closest waterproot, covered space exceeding 125 cu': shelter must have an entry exceeding 2R' bordering on open air."
+8 - Lesser Traps,varies,P,touch,"8 - LESSER TRAPS (F) Caster can construct a minor outdoor trap in 1 minute: this trap can deliver a ""B"" critical hit to any one person (e.g., a shallow spiked pit, a snare that mangles the victim, etc.)."
+9 - Weather Prediction,1 mile R,-,self,"9- WEATHER PREDICTION I) Allows 95% chance of predicting time, nature and severity of weather over the next 24 hr. period."
+10 - Nature's Aware,100'R,C,self,"10 - NATURE'S AWARENESS (I) Allows caster to monitor animate activity in the area (i.e., movement, combat, and maneuvers). This spell may only be used if the radius of effect contains plants and/or animals, for it is they who give the caster the information sought."

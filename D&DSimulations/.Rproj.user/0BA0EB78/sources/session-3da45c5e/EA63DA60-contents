@@ -1,0 +1,14 @@
+# LETS FUCKING GO THIS SHIT IS GONNA GO GREAT, THIS IS MY WHOLE ATTEMPT TO DO TREASURE TYPE ROLLS
+
+set_first_row_as_colnames <- function(data) {
+  new_colnames <- as.character(unlist(data[1, ]))  # Extract the first row as column names
+  data <- data[-1, ]                              # Remove the first row
+  colnames(data) <- new_colnames                  # Set new column names
+  return(data)
+}
+
+# Apply the function
+ADND.Treasure.Types <- set_first_row_as_colnames(ADND.Treasure.Types)
+
+# View the updated data frame
+print(df)

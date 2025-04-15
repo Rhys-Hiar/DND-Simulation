@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1- Freeze Liquid c,1 cu'/lvl,P,10',1 - F R E E Z E LIQUID (F) Any inanimate liquid (1 cu'/Ivl) can be cooled to freezing at a rate of 1cu'/nd of concentration (temp. cannot be lower than 3-0 degrees F).
+2 - Cool Solid c,1 cu'/lvl,24 hr,10',"2- COOL SOLID (F) Any solid, inanimate, non-metal material 1( cu'/Ivl) can be cooled to -20 degrees F at a rate of 1 cu/rnd of concentration."
+3 - Wall of Cold,10'x10'x1',1 rnd/lvl,100',"3 - WALL OF COLD (E) Creates a transparent wall of intense cold (up to 10'x10'x1'), anyone passing through takes an ""A"" cold critical (no RR)."
+4 - Cool Air c,1000 cu'/lvl,1 hr,100',4- COOL AIR (E) The temperature of the air in an enclosed area may be lowered at a rate of 10 degrees F per round of concentration (to a maximum 01 -20 degrees F . W h e n the concentration ceases the air will w a r m normally.
+5 - Chill Solid c,1 cu'/lvl,1 hr,10',"-5 CHILL SOLID (F) As Cool Solid, except material can be cooled to -200 degrees F, at a rate of -10 degrees/rnd of concentration."
+6 - Ice Bolt,1 target,-,100',-6 ICE BOLT (E) Abolt of ice si shot from the palm of the caster; results are determined on the Bolt Attack Table.
+7 - Cold Ball (20'),20' R,-,100',"7-COLD BALL (E) A1'ball of cold si shot from the palm of the caster, it ex- plodes at a point chosen by the caster to affect a 20R' area; results are deter- mined on the Ball Attack Table."
+8 - Wall of Ice,10'x10'x1',P,100',"8-WALLOFICE(E)Summonsawaloficeupto10'x10'(2'atbase,l'at top); it must be affixed to a solid surface. It can be melted (wall takes 100 hits), chipped through (50 man-rounds) or toppled (if one end is not against a wall)."
+9 - Call Cold,20'x20'x20',1 rnd/lvl,10',"9- CALL COLD (E) As Call Flame on the Fire Law list, except that ti creates a cube of cold (up to 20'x20'x20"") that delivers cold cnticals."
+10 - Circle of Cold,20'Rx20'x1,1 rnd/lvl,self,"10 - CIRCLE OF COLD (E) As Wal of Cold, except the ""wall"" si up to 20' high and forms a circle (up to 20R' and 1' thick) with the caster at the center (it is non-mobile)."

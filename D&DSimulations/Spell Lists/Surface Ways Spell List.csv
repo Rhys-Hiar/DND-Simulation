@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1 - Heal 10,1 target,P,touch,1 - HEAL 10 (U) Heals 1- 10 concussion hits.
+2 - Frost/ Burn Relief I,1 burn area,P,touch,2 - FROST/BURN RELIEF I (U) Will heal one area of mild frostbite or an area of first degree burns.
+3 - Stun Relief I *,1 target,P,touch,"3 - STUN RELIEF I (U*) Relieves target of 1nd's worth of stun effect, i.e., target is stunned for one round les that before spell was cast (in addition to normal decrease)."
+4 - Regeneration I * c,1 target,C,touch,4 - REGENERATION I (U*) Reduces the concussion hit damage that the target has taken by 1hit for each round that the caster concentrates.
+5 - Frost/ Burn Relief II,varies,P,touch,"5 - FROST/BURN RELIEF I (U) As Frost/Burn Relief I, except 2areas of mild damage OR 1area of moderate damage (c.g., 2nd degree burn) can eb healed."
+6 - Awakening,1 target,P,touch,6- AWAKENING (U) Awakens target instantly.
+7 - Heal 50,1 target,P,touch,7- HEAL 50 (U) As Heal 10 except that ti heals 5- 50 concussion hits. 
+8 - Frost/Burn Relief III,varies,P,touch,"8-FROST/BURN RELIEF III (U) As Front/Burn Relief I, except 3areas of m i l d d a m a g e OR 1 a r e a o f s e v e r e d a m a g e ( e . g . , 3 r d d e g r e e b u r n ) O R a c o m - bination of 1mild and 1moderate area can be healed."
+9 - Stun Relief III *,1 target,P,touch,"9 - STUN RELIEF III (U*) As Stun Relief I, except that target si relieved of up to 3rounds of stun effects."
+10 - Regeneration III *c,1 target,C,touch,"10 - REGENERATION III (U*) As Regeneration I, except that 3 hits per round are healed."

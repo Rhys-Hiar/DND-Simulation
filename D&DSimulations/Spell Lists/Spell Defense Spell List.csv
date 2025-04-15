@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1 - Protection I,1 target,1 min/lvl,10',"1-PROTECTION I(P) Subtracts 10 from al elemental attack rolls against the target, and adds 10 to all of the target's RR's vs. spells."
+2 - Area Protection I c,10'R,1 min/lvl,10',2- AREA PROTECTION I(P) As Protection Iexcept all beings within 10' R of target get the benefits when the caster concentrates.
+3 - Neutralize Curse,1 cuse,1 min/lvl,touch,3 - NEUTRALIZE CURSE (F) Nullifies the effects of a curse for the dura- tion of this spel. The curse si not dispelled and takes effect again afterwards. The curse gets a R modified by -20 to avoid being neutralized.
+4 - Projection II,1 target,1 min/lvl,10',"4- PROTECTION I (P) As Protection ,I except that the bonuses are 20. "
+5 - Area Protection II c,10'R,1 min/lvl,10',"5- AREA PROTECTION I (P) As Area Protection ,I except that the bonuses are 20."
+6 - Remove Curse,1 curse,P,touch,"6- REMOVE CURSE (F) Cancels a curse if the curse fails a RR: the target l e v e l is t h e l e v e l o f t h e o r i g i n a l c u r s e c a s t e r a n d t h e a t t a c k l e v e l is t h e l e v e l o f the caster of this spel. Once this spell is cast on agiven curse, it cannot be cast again by the same spell-user until he has gone up another level of experience."
+7 - Neutralize Cruse II,1 curse,1 hr/lvl,10',"7- NEUTRALIZE CURSE (F) As above, except curse is nullified for 1 hr/vl of the caster."
+8 - Cancel Spell,1 spell,P,10',8- CANCEL SPELL (F) As Remove Curse except that any one existing spell may be canceled.
+9 - Protection III,1 target,1 min/lvl,10',9- PROTECTION III (P) As Protection i except that the bonuses are 30. 
+10 - Area Protection III c,10'R,1 min/lvl,10',10- AREA PROTECTION III (P) As Area Protection 1except that the bonuses are 30.

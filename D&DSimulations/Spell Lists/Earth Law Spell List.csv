@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1 - Enchanted Rope c,one rope,C,10'/lvl,1- ENCHANTED ROPE (F) If caster holds one end of a rope he can cause the rope to move up to its length (within the range) in any direction and to tie itself in knots fit cannot attack or tie up a moving or active being).
+2 - Loosen Earth,100 cu',P,100',2 - LOOSEN EARTH (F) Loosens 100 cu' of earth to the consistency of plowed ground.
+3 - Crush Stone,"2""x2""x2""",-,100',"3-CRUSH STONE (F) Crushes a stone or section of stone (up to 2""x2 x2"") to the consistency of a powder. This includes non-enchanted stone and gems. If amaneuver rol si made, this spel can affect sling stones."
+4 - Earthwall,10'x10'x1.5',1 min/lvl,100',"-4 EARTHWALL (E) Summons a wal of packed earth up to 10'x10'x(3' at base, l' at top); must rest on solid surface. It can be dug through at the top in u man-rounes."
+5 - Cracks Call,1000 cu',-,100',-5 CRACKS CALL (F) Any already existing cracks or flaws in a section of inanimate material (up to 10x10x10') wil extend to their limit.
+6 - StoneWall,10'x10'x1',1 min/lvl,100',"-6 STONEWALL (E) As Earthwall, except wal si up to 10'x10'xl' of stone and it has the durability of normal stone."
+7 - Stone/Earth,100 cu',P,100',7-STONE/EARTH (F) Changes 10 cu of normal stone to packed earth; change si gradual and takes 3rnds.
+8 - EarthwallTrue,10'x10'x1',P,100',"8- EARTHWALL TRUE (E) As Earthwall, except duration is permanent. "
+9 - Earth/Mud,100 cu',P,100',"9- EARTH/MUD (F) As Stone/Earth, except changes earth to soft mud. "
+10 - Earth/Stone,100 cu',P,100',"10 - EARTH/STONE (F) As Stone/Earth, except changes packed earth to solid stone and loose earth to gravel."

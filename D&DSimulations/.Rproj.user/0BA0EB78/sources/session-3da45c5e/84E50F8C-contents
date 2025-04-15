@@ -1,0 +1,20 @@
+# Define the loot table
+loot_table <- data.frame(
+  roll = 1:100,
+  item = c(rep("Potion", 3), rep("Sword", 2), rep("Shield", 5), rep("Armor", 10), rep("Bow", 20), rep("Staff", 10), rep("Ring", 10), rep("Amulet", 10), rep("Boots", 10), rep("Helmet", 10), rep("Gloves", 10))
+)
+
+# Function to get loot based on a roll
+get_loot <- function(roll) {
+  loot <- loot_table$item[loot_table$roll == roll]
+  return(loot)
+}
+
+# Generate a random roll between 1 and 100
+# For reproducibility
+random_roll <- sample(1:100, 1)
+
+# Get the loot for the random roll
+loot <- get_loot(random_roll)
+
+cat("Roll:", random_roll, "Item:", loot)

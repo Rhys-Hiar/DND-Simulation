@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1 - Sprain Repair,1 sprain,P,touch,1- SPRAIN REPAIR (U) Repair 1sprain.
+2 - Minor Fracture Repair,1 break,P,touch,"-2 MINOR FRACTURE REPAIR (U) Mend I simple fracture (not com- pound fractures, shatters, joint damage, or skull damage); recovery time 1-10"
+3 - Muscle Repair (U),1 muscle,P,touch,-3 MUSCLE REPAIR (U) Repairs 1damaged muscle (not organs such as the heart); recovery time 1-10 hr.
+4 - Cartilage Repair,1 joint,P,touch,-4 CARTILAGE REPAIR (U) Repairs al damaged cartilage around one joint; recovery time 1-10 hr.
+5 - Tendon Repair,1 tendon,P,touch,5- TENDON REPAIR (U) Repairs one damaged tendon; recovery time 1-10
+6 - Major Fracture Repair,1 break,P,touch,"-6 MAJOR FRACTURE REPAIR (U) Mends 1simple or compound frac- ture (not shatters, joint damage, or skull damage); recovery time 1-10 hr."
+7 - Joining *,1 limb,P,touch,"7-JOINING (U*) When used with the Joining spells on the other healing lists (Blood Ways and Organ Ways), caster can reattach one severed limb; recovery time 1-10 days."
+8 - Tooth Repair,1 tooth,P,touch,"8-TOOTH REPAIR (U) This spell can repair any tooth damage; including cavities, abscesses, and cracked or chipped teeth. fI atooth si knocked out or shattered, this spell will make it whole it most of the footh can be recovered."
+9 - Skull Repair,1 skull,P,touch,9- SKULL REPAIR (U) Mends any 1skull fracture (not shattered areas); recovery time 1- 10 hr.
+10 - Joint Repair,1 joint,P,touch,10- JOINT REPAIR (U) Repairs 1 damaged joint (not shattered joints); recoveryume 1- 10days.

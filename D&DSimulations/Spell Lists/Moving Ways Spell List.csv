@@ -1,0 +1,11 @@
+﻿Spell Name,Area of Effect,Duration,Range,Description
+1 - Stonerunning,self,1 min/lvl,self,1- STONERUNNING (F) Allows caster to run on stone surfaces angled up to 75 degrees as if he were on level ground.
+2 - Limbwalking,self,1 min/lvl,self,2 - L I M b W A L s I N G ( r ) A l l o w s c a s t e r t o w a l k a l o n g n e a r l y n o n z o n t a l t r e e limbs (that can support the weight) as if he were on level ground.
+3 - Swimming *,self,5 min/lvl,self,3- SWIMMING (F*) Enables target to swim without tiring or expending chelsy.
+4 - Sandrunning,self,1 min/lvl,self,"4-SANDRUNNING (F) As Stonerunning, except caster can run on sandy surtaces as it they were firm ground."
+5 - Waterwalking,self,1 min/lvl,self,5 - WATERWALKING (F) Allows caster to walk on water as if he were on level dry ground: maneuver rols may be required on rough water.
+6 - Limbrunning,self,1 min/lvl,self,"-6 LIMBRUNNING (F) As Limbwalking, except caster can run along limbs."
+7 - Traceless Pasing c,self,C,self,-7 TRACELESS PASSING (F) As long as the caster concentrates he can walk without leaving tracks or other visible signs of his passing.
+8 - Track Hiding c,-,C,50',-8 TRACK HIDING (F) As Traceless Passing except that the caster can also hide tracks of any 1other being whose tracks he folows.
+9 - Waterrunning,self,1 min/lvl,self,"9- WATERRUNNING (F) As Waterwalking, except caster can run on water."
+10 - Swimming True *,self,5 min/lvl,self,"10- SWIMMING TRUE (F*) As Swimming, except target can swim as fast as he could run."

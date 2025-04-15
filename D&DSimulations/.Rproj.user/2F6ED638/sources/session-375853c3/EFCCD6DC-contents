@@ -1,0 +1,30 @@
+# From https://eric.clst.org/tech/usgeojson/ and
+# https://en.wikipedia.org/wiki/List_of_United_States_counties_and_county_equivalents
+
+
+nycounties <- sf::read_sf("https://rstudio.github.io/leaflet/json/nycounties.geojson") 
+
+pal <- colorNumeric("viridis", NULL)
+
+leaflet(nycounties) %>%
+  addTiles() %>%
+  addPolygons(stroke = FALSE, smoothFactor = 0.3, fillOpacity = 1,
+              fillColor = ~pal(log10(pop)),
+              label = ~paste0(county, ": ", formatC(pop, big.mark = ","))) %>%
+  addLegend(pal = pal, values = ~log10(pop), opacity = 1.0,
+            labFormat = labelFormat(transform = function(x) round(10^x)))
+
+
+
+#####
+
+geojson_test <- read_file("GeoJson Files/Map Borders Original File Test1.geojson")
+
+leaflet(geojson_test) %>%
+    addGeoJSON(geojson_test) %>%
+      addMiniMap(strings = list(hideText = "Hide MiniMap", showText = "Show MiniMap"),)
+  
+  
+#  addPolygons(stroke = FALSE, smoothFactor = 0.3, fillOpacity = 1,
+#               fillColor = ~pal(log10(pop)))
+#
